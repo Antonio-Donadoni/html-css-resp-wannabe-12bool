@@ -3,12 +3,21 @@
   margin: 0;
   padding: 0;
 }
-
+body{
+  background-image: url("../img/bg-blue.png");
+}
 
 section {
   margin-top: 50px;
   text-align: center;
   padding: 20px 10px;
+  font-size: 16px;
+  background-color: #edf0f4;
+  border: 1px solid #597293;
+}
+
+.wrapper{
+  padding:20px;
 }
 
 img {
@@ -18,5 +27,46 @@ img {
 #why img {
   background-color: #428bca;
   border-radius: 50%;
-  padding: 30px
+  padding: 30px;
+}
+
+#lezioni img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+section div h1 {
+
+  padding-bottom: 10px;
+  font-size: 2.2rem;
+}
+
+section div h3 {
+  padding-bottom: 15px;
+  font-size: 1.6rem;
+  padding-top: 5px;
+
+}
+
+
+@media all and (max-width:992px) {
+
+  #lezioni {
+      margin-top: 0px;
+  }
+
+}
+
+@media all and (max-width:768px) {
+
+  #lezioni img {
+    height: 140px;
+  }
+
+  section {
+    font-size: 20px;
+  }
+
+
 }
