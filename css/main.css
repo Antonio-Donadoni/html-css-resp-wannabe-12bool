@@ -4,14 +4,19 @@
   padding: 0;
 }
 
-.container {
-  height: 200px;
 
+section {
+  margin-top: 50px;
+  text-align: center;
+  padding: 20px 10px;
 }
 
-[class*="col-"] {
-  height: 100%;
-  background-color: lime;
-  border: solid black 1px;
+img {
+  height: 200px;
+}
 
+#why img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px
 }
